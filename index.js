@@ -1,4 +1,4 @@
-var animal = 'dog'
+animal = 'dog'
 
 function myAnimal() {
   return animal
@@ -27,4 +27,4 @@ function() {
 }
 
 // We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
-theFunk = function()
+theFunk = function
