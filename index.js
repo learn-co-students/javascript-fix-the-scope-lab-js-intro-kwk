@@ -18,12 +18,12 @@ function add2(n) {
   const two = 2
 }
 
-var funkyFunction = function() {
-  var ff=function() {
+var funkyFunction = function1() {
+  var ff=function2() {
     return "FUNKY!"
   }
   return ff
 }
 
 // We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
-var theFunk = funkyFunction
+var theFunk = funkyFunction()
