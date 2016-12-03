@@ -24,10 +24,10 @@ function funkyFunction() {
   var theFunk = "FUNKY!";
   return function theFunk() {
     }
-  return funkyFunction();
+  return theFunk; 
 }
 
 // We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
-var theFunk = funkyFunction()
+
 
 
