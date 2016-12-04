@@ -21,10 +21,10 @@ function add2(n) {
 }
 
 function funkyFunction() {
-  var x = function theFunk() {
-    return "FUNKY!"
+  return function theFunk() {
+    return "FUNKY!"; 
   }
-  return theFunk()
+  return theFunk(); 
 }
 
 //var theFunk = funkyFunction();
