@@ -13,7 +13,6 @@ function yourAnimal() {
 function add2(n) {
   const two = 2;
   return n + two;
-
   // Feel free to move things around!
 }
 
@@ -23,16 +22,8 @@ var funkyFunction = function() {
   }
 }
 
-
-//function funkyFunction() {
-  //return function theFunk() {
-    //return "FUNKY!"; 
-  //}
-  //return theFunk(); 
-//}
-
 var theFunk = theFunk();
-theFunk
+//theFunk
 
 // We want this to return a function that returns "FUNKY!" -- how can we accomplish that?
 
