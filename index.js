@@ -17,12 +17,19 @@ function add2(n) {
   // Feel free to move things around!
 }
 
-function funkyFunction() {
-  return function theFunk() {
-    return "FUNKY!"; 
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
   }
-  return theFunk(); 
 }
+
+
+//function funkyFunction() {
+  //return function theFunk() {
+    //return "FUNKY!"; 
+  //}
+  //return theFunk(); 
+//}
 
 var theFunk = theFunk();
 theFunk
